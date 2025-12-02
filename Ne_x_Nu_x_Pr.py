@@ -92,11 +92,12 @@ def calcular_mapa_prandtl_range_alto():
     
     # Pequenas anotações sobre os fluidos
     ax.text(12000, 3.5, "Óleos Viscosos\n(Pr ≈ 100)", color='darkred', ha='center', fontsize=9, fontweight='bold')
-    ax.text(15000, 0.35, "Gases/Ar\n(Pr ≈ 0.7)", color='navy', ha='center', fontsize=9, fontweight='bold')
+    ax.text(15000, 0.1, "Gases/Ar\n(Pr ≈ 0.7)", color='navy', ha='center', fontsize=9, fontweight='bold')
 
     ax.legend(loc='upper left', frameon=True)
     plt.tight_layout()
     plt.show()
 
 if __name__ == "__main__":
+
     calcular_mapa_prandtl_range_alto()
